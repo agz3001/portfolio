@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='agz3001のポートフォリオ作品集'>
+  <meta property='og:url' content='https://agz3001.github.io/portfolio/'>
+  <meta property='og:description' content='agz3001のポートフォリオ作品集'>
+  <meta name="description" content="agz3001のポートフォリオ作品集" />
+  <title>ALL WORKS | agz3001's Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+  <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/photoswipe.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/default-skin/default-skin.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.0.5/remodal.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.0.5/remodal-default-theme.min.css">
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header" style="background-image:url(img/brick4.webp);">
+      <section class="header-section section" id="top-section">
+        <h1 class="logo">
+          <span class="logo-name"></span>
+          <span class="logo-title">Me PORTFOLIO</span>
+          <span class="logo-text">ALL WORKS</span>
+        </h1>
+      </section>
+    </header>
+    <main class="content">
+        <div class="sp-only">
+            <img src="img/text_sakuhinten.png">
+        </div>
+      <section class="works-section section" id="works-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary"><i class="fas fa-cubes fa-lg">WORKS</i></h2>
+          </div>
+          <p class="section-lead">
+            今までの活動や開発に携わってきたものです。<br>
+            画像をクリックすると詳細が表示されます。
+          </p>
+          <div class="section-body works">
+            <div class="works-list js-my-gallery">
+              <figure class="works-item">
+                <a data-remodal-target="kaggle" class="works-link works-image-wrapper hover-action">
+                  <img class="works-image fadein lazyloaded" src="img/kaggle1.png">
+                </a>
+                <figcaption class="works-body">
+                  <div class="works-title">Kaggle</div>
+                </figcaption>
+                <div class="remodal" data-remodal-id="kaggle" data-remodal-options="hashTracking: false">
+                  <div>
+                    <h1>Kaggle</h1>
+                    <table class="table-skill" >
+                      <tr>
+                        <th>URL</th>
+                        <td><a href="https://www.kaggle.com" target="_blank" rel="noopener">https://www.kaggle.com</a></td>
+                      </tr>
+                      <tr>
+                        <th>ソースコード</th>
+                        <td><a href="https://github.com/agz3001/kaggle.git" target="_blank" rel="noopener">https://github.com/agz3001/kaggle.git</a></td>
+                      </tr>
+                      <tr>
+                        <th>説明</th>
+                        <td>機械学習系のコンペです。<br>断続的にコンペに参加しつつ、master, Grandmasterを目指しています。</td>
+                      </tr>
+                      <tr>
+                        <th>使用技術</th>
+                        <td>R, Python</td>
+                      </tr>
+                    </table>
+                  </div>
+                  <button data-remodal-action="cancel" class="remodal-cancel">閉じる</button>
+                </div>
+              </figure>
+              <figure class="works-item">
+                <a data-remodal-target="portfolio" class="works-link works-image-wrapper hover-action">
+                  <img class="works-image fadein lazyloaded" src="img/portfolio_image.png">
+                </a>
+                <figcaption class="works-body">
+                  <div class="works-title">Portfolio</div>
+                </figcaption>
+                <div class="remodal" data-remodal-id="portfolio" data-remodal-options="hashTracking: false">
+                  <div>
+                    <h1>Portfolio Site</h1>
+                    <table class="table-skill">
+                      <tr>
+                        <th>URL</th>
+                        <td><a href="https://agz3001.github.io/portfolio" target="_blank" rel="noopener">https://agz3001.github.io/portfolio</a></td>
+                      </tr>
+                      <tr>
+                        <th>ソースコード</th>
+                        <td><a href="https://github.com/agz3001/portfolio.git" target="_blank" rel="noopener">https://github.com/agz3001/portfolio.git</a></td>
+                      </tr>
+                      <tr>
+                        <th>説明</th>
+                        <td>このサイトです。<br>「Works」で画像をクリックすると詳細が表示される動きなどはJavascriptを使っています。</td>
+                      </tr>
+                      <tr>
+                        <th>使用技術</th>
+                        <td>HTML, CSS,<br class="sp-only"> Javascript, jQuery</td>
+                      </tr>
+                    </table>
+                  </div>
+                  <button data-remodal-action="cancel" class="remodal-cancel">閉じる</button>
+                </div>
+              </figure>
+              <figure class="works-item">
+                <a data-remodal-target="farm" class="works-link works-image-wrapper hover-action">
+                  <img class="works-image fadein lazyloaded" src="img/seedlings3.png">
+                </a>
+                <figcaption class="works-body">
+                  <div class="works-title">赤嶺農園HP</div>
+                </figcaption>
+                <div class="remodal" data-remodal-id="farm" data-remodal-options="hashTracking: false">
+                  <div>
+                    <h1>赤嶺農園HP</h1>
+                    <table class="table-skill">
+                      <tr>
+                        <th>URL</th>
+                        <td>非公開</td>
+                      </tr>
+                      <tr>
+                        <th>ソースコード</th>
+                        <td><a href="https://github.com/agz3001/akamine_farm.git" target="_blank" rel="noopener">https://github.com/agz3001/akamine_farm.git</a></td>
+                      </tr>
+                      <tr>
+                        <th>説明</th>
+                        <td>某マンゴー農園のWEBサイトです。問い合わせフォーム等は不要であったため、<br>データベースなしで作成しました。</td>
+                      </tr>
+                      <tr>
+                        <th>使用技術</th>
+                        <td>HTML, CSS,<br class="sp-only"> Javascript, jQuery</td>
+                      </tr>
+                    </table>
+                  </div>
+                  <button data-remodal-action="cancel" class="remodal-cancel">閉じる</button>
+                </div>
+              </figure>
+              <figure class="works-item">
+                <a data-remodal-target="board" class="works-link works-image-wrapper hover-action">
+                  <img class="works-image fadein lazyloaded" src="img/board1.png">
+                </a>
+                <figcaption class="works-body">
+                  <div class="works-title">掲示板</div>
+                </figcaption>
+                <div class="remodal" data-remodal-id="board" data-remodal-options="hashTracking: false">
+                  <div>
+                    <h1 style="text-align:center">掲示板</h1>
+                    <table class="table-skill" >
+                      <tr>
+                        <th>URL</th>
+                        <td><a href="https://board2board.sakura.ne.jp" target="_blank" rel="noopener">https://board2board.sakura.ne.jp</a></td>
+                      </tr>
+                      <tr>
+                        <th>ソースコード</th>
+                        <td><a href="https://github.com/agz3001/board2board.git" target="_blank" rel="noopener">https://github.com/agz3001/laravel_board.git</a></td>
+                      </tr>
+                      <tr>
+                        <th>説明</th>
+                        <td>CRUD機能だけでなく、<br>レスアンカーを用いた過去の書き込みに対する返信機能も実装しました。</td>
+                      </tr>
+                      <tr>
+                        <th>使用技術</th>
+                        <td>Laravel, MySQL,<br class="sp-only"> Javascript</td>
+                      </tr>
+                    </table>
+                  </div>
+                  <button data-remodal-action="cancel" class="remodal-cancel">閉じる</button>
+                </div>
+              </figure>
+              <figure class="works-item">
+                <a data-remodal-target="spa" class="works-link works-image-wrapper hover-action">
+                  <img class="works-image fadein lazyloaded" src="img/工事中.jpg">
+                </a>
+                <figcaption class="works-body">
+                  <div class="works-title">SPA</div>
+                </figcaption>
+                <div class="remodal" data-remodal-id="spa" data-remodal-options="hashTracking: false">
+                  <div>
+                    <h1>Single Page Application</h1>
+                    <table class="table-skill" >
+                      <tr>
+                        <th>URL</th>
+                        <td>非公開</td>
+                      </tr>
+                      <tr>
+                        <th>ソースコード</th>
+                        <td><a href="https://github.com/agz3001/laravel_spa.git" target="_blank" rel="noopener">https://github.com/agz3001/laravel_spa.git</a></td>
+                      </tr>
+                      <tr>
+                        <th>説明</th>
+                        <td>シームレスなページ遷移に特徴のあるSPAです。具体的には、<br>Laravel側でAPIを作成し、フロント側はVue.jsで実装しています。</td>
+                      </tr>
+                      <tr>
+                        <th>使用技術</th>
+                        <td>Laravel, Vue.js,<br class="sp-only"> MySQL</td>
+                      </tr>
+                    </table>
+                  </div>
+                  <button data-remodal-action="cancel" class="remodal-cancel">閉じる</button>
+                </div>
+              </figure>
+              <figure class="works-item">
+                <a data-remodal-target="scraping" class="works-link works-image-wrapper hover-action">
+                  <img class="works-image fadein lazyloaded" src="img/scraping2.png">
+                </a>
+                <figcaption class="works-body">
+                  <div class="works-title">News記事スクレイピング</div>
+                </figcaption>
+                <div class="remodal" data-remodal-id="scraping" data-remodal-options="hashTracking: false">
+                  <div>
+                    <h1>Newsデータスクレイピング</h1>
+                    <table class="table-skill">
+                      <tr>
+                        <th>URL</th>
+                        <td>なし</td>
+                      </tr>
+                      <tr>
+                        <th>ソースコード</th>
+                        <td><a href="https://github.com/agz3001/news_scraping.git" target="_blank" rel="noopener">https://github.com/agz3001/news_scraping.git</td>
+                      </tr>
+                      <tr>
+                        <th>説明</th>
+                        <td>個人用サイトとして非公開で使用しています。気になる記事スクレイピングの自動化を行っています。</td>
+                      </tr>
+                      <tr>
+                        <th>使用技術</th>
+                        <td>Python,<br class="sp-only"> SQLite</td>
+                      </tr>
+                    </table>
+                  </div>
+                  <button data-remodal-action="cancel" class="remodal-cancel">閉じる</button>
+                </div>
+              </figure>
+              <figure class="works-item">
+                <a data-remodal-target="pumpkin-cart" class="works-link works-image-wrapper hover-action">
+                  <img class="works-image fadein lazyloaded" src="img/pumpkin-cart.png">
+                </a>
+                <figcaption class="works-body">
+                  <div class="works-title">かぼちゃのカート</div>
+                </figcaption>
+                <div class="remodal" data-remodal-id="pumpkin-cart" data-remodal-options="hashTracking: false">
+                  <div>
+                    <h1>かぼちゃのカート</h1>
+                    <table class="table-skill" >
+                      <tr>
+                        <th>URL</th>
+                        <td><a href="https://pumpkin-cart7.sakura.ne.jp" target="_blank" rel="noopener">https://pumpkin-cart7.sakura.ne.jp</a></td>
+                      </tr>
+                      <tr>
+                        <th>ソースコード</th>
+                        <td>非公開</td>
+                      </tr>
+                      <tr>
+                        <th>説明</th>
+                        <td>某小売店の販促用ECサイトです。<br>
+                        ログイン機能、決算機能、自動メール通知機能等も実装しています。</td>
+                      </tr>
+                      <tr>
+                        <th>使用技術</th>
+                        <td>Laravel, Javascript,<br class="sp-only"> MySQL</td>
+                      </tr>
+                    </table>
+                  </div>
+                  <button data-remodal-action="cancel" class="remodal-cancel">閉じる</button>
+                </div>
+              </figure>
+              <figure class="works-item">
+                <a data-remodal-target="a-shopping" class="works-link works-image-wrapper hover-action">
+                  <img class="works-image fadein lazyloaded" src="img/rakuten_a-shopping.png">
+                </a>
+                <figcaption class="works-body">
+                  <div class="works-title">阪神タイガース<br class="sp_only">グッズショップ 虎のお店様</div>
+                </figcaption>
+                <div class="remodal" data-remodal-id="a-shopping" data-remodal-options="hashTracking: false">
+                  <div>
+                    <h1>虎のお店</h1>
+                    <table class="table-skill" >
+                      <tr>
+                        <th>URL</th>
+                        <td><a href="https://www.rakuten.ne.jp/gold/a-shpping/" target="_blank" rel="noopener">https://www.rakuten.ne.jp/gold/a-shopping/</a></td>
+                      </tr>
+                      <tr>
+                        <th>ソースコード</th>
+                        <td>非公開</td>
+                      </tr>
+                      <tr>
+                        <th>説明</th>
+                        <td>
+                          楽天GOLDのECサイトです。<br>
+                          TOPページのみのコーディングですが、
+                          随時バナー交換をしています。
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>使用技術</th>
+                        <td>HTML, CSS,<br class="sp_only"> Javascript, jQuery</td>
+                      </tr>
+                    </table>
+                  </div>
+                  <button data-remodal-action="cancel" class="remodal-cancel">閉じる</button>
+                </div>
+              </figure>
+              <figure class="works-item">
+                <a data-remodal-target="remon" class="works-link works-image-wrapper hover-action">
+                  <img class="works-image fadein lazyloaded" src="img/rakuten_remon.png">
+                </a>
+                <figcaption class="works-body">
+                  <div class="works-title">楽天GOLD<br class="sp_only">ヘルスケア・サポート様</div>
+                </figcaption>
+                <div class="remodal" data-remodal-id="remon" data-remodal-options="hashTracking: false">
+                  <div>
+                    <h1>楽天GOLD <br class="sp-only">ECサイト</h1>
+                    <table class="table-skill" >
+                      <tr>
+                        <th>URL</th>
+                        <td><a href="https://www.rakuten.ne.jp/gold/remon/" target="_blank" rel="noopener">https://www.rakuten.ne.jp/gold/remon/</a></td>
+                      </tr>
+                      <tr>
+                        <th>ソースコード</th>
+                        <td>非公開</td>
+                      </tr>
+                      <tr>
+                        <th>説明</th>
+                        <td>
+                          楽天GOLDのECサイトです。<br>
+                          TOPページのみのコーディングですが、
+                          随時バナー交換をしています。
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>使用技術</th>
+                        <td>HTML, CSS,<br class="sp_only"> Javascript, jQuery</td>
+                      </tr>
+                    </table>
+                  </div>
+                  <button data-remodal-action="cancel" class="remodal-cancel">閉じる</button>
+                </div>
+              </figure>
+              <figure class="works-item">
+                <a data-remodal-target="kisei01" class="works-link works-image-wrapper hover-action">
+                  <img class="works-image fadein lazyloaded" src="img/rakuten_kisei01.png">
+                </a>
+                <figcaption class="works-body">
+                  <div class="works-title">楽天GOLD<br class="sp_only">コスメ・日用品販売店様</div>
+                </figcaption>
+                <div class="remodal" data-remodal-id="kisei01" data-remodal-options="hashTracking: false">
+                  <div>
+                    <h1>楽天GOLD <br class="sp-only">ECサイト</h1>
+                    <table class="table-skill" >
+                      <tr>
+                        <th>URL</th>
+                        <td><a href="https://www.rakuten.ne.jp/gold/kisei01/" target="_blank" rel="noopener">https://www.rakuten.ne.jp/gold/kisei01/</a></td>
+                      </tr>
+                      <tr>
+                        <th>ソースコード</th>
+                        <td>非公開</td>
+                      </tr>
+                      <tr>
+                        <th>説明</th>
+                        <td>楽天GOLDのECサイトです。<br>
+                          TOPページのみのコーディングでが、
+                          随時バナー交換をしています。
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>使用技術</th>
+                        <td>HTML, CSS,<br class="sp_only"> Javascript, jQuery</td>
+                      </tr>
+                    </table>
+                  </div>
+                  <button data-remodal-action="cancel" class="remodal-cancel">閉じる</button>
+                </div>
+              </figure>
+              <figure class="works-item">
+                <a data-remodal-target="ibuki" class="works-link works-image-wrapper hover-action">
+                  <img class="works-image fadein lazyloaded" src="img/rakuten_further-leap.png">
+                </a>
+                <figcaption class="works-body">
+                  <div class="works-title">楽天GOLD<br class="sp_only">撫子＆「真」女性ブランド様</div>
+                </figcaption>
+                <div class="remodal" data-remodal-id="ibuki" data-remodal-options="hashTracking: false">
+                  <div>
+                    <h1>楽天GOLD <br class="sp-only">ECサイト</h1>
+                    <table class="table-skill" >
+                      <tr>
+                        <th>URL</th>
+                        <td><a href="https://www.rakuten.ne.jp/gold/further-leap/" target="_blank" rel="noopener">https://www.rakuten.ne.jp/gold/further-leap/</a></td>
+                      </tr>
+                      <tr>
+                        <th>ソースコード</th>
+                        <td>非公開</td>
+                      </tr>
+                      <tr>
+                        <th>説明</th>
+                        <td>楽天GOLDのECサイトです。<br>
+                          TOPページのみのコーディングでが、
+                          随時バナー交換をしています。
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>使用技術</th>
+                        <td>HTML, CSS,<br class="sp_only"> Javascript, jQuery</td>
+                      </tr>
+                    </table>
+                  </div>
+                  <button data-remodal-action="cancel" class="remodal-cancel">閉じる</button>
+                </div>
+              </figure>
+              <figure class="works-item">
+                <a data-remodal-target="flutter_blog" class="works-link works-image-wrapper hover-action">
+                  <img class="works-image fadein lazyloaded" src="img/flutter_blog.png">
+                </a>
+                <figcaption class="works-body">
+                  <div class="works-title">Flutter Blog</div>
+                </figcaption>
+                <div class="remodal" data-remodal-id="flutter_blog" data-remodal-options="hashTracking: false">
+                  <div>
+                    <h1>Flutter Blog</h1>
+                    <table class="table-skill" >
+                      <tr>
+                        <th>URL</th>
+                        <td><a href="" target="_blank" rel="noopener"></a>非公開</td>
+                      </tr>
+                      <tr>
+                        <th>ソースコード</th>
+                        <td>非公開</td>
+                      </tr>
+                      <tr>
+                        <th>説明</th>
+                        <td>
+                            Flutterで作成したBlogです。
+                            クロスプラットフォームなので、<br class="sp-only">
+                            iOS, android双方で動作します。
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>使用技術</th>
+                        <td>Flutter, Firebase</td>
+                      </tr>
+                    </table>
+                  </div>
+                  <button data-remodal-action="cancel" class="remodal-cancel">閉じる</button>
+                </div>
+              </figure>
+            </div>
+          </div>
+          <div class="text-center">
+            <a href="index.html">戻る >></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="inner">
+        <p class="copyright">Copyright&copy;2020 agz3001</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- 下記はPhotoswipeプラグイン用 -->
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe.
+           It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+      <!-- Container that holds slides.
+              PhotoSwipe keeps only 3 of them in the DOM to save memory.
+              Don't modify these 3 pswp__item elements, data is added later on. -->
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
+        <div class="pswp__top-bar">
+          <!--  Controls are self-explanatory. Order can be changed. -->
+          <div class="pswp__counter"></div>
+          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+          <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+          <!-- element will get class pswp__preloader--active when preloader is running -->
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div>
+        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+        </button>
+        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+        </button>
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.0.5/remodal.min.js"></script>
+  <script src="js/photoswipe/photoswipe.min.js"></script>
+  <script src="js/photoswipe/photoswipe-ui-default.js"></script>
+  <script src="js/photoswipe/photoswipe-setup.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
